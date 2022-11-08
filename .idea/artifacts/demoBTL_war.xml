@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="demoBTL:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>demoBTL</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="demoBTL-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="demoBTL:war exploded" />
+    </root>
+  </artifact>
+</component>
